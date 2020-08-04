@@ -1,1 +1,10 @@
-gitignore.html
+gitignore.html 
+#to iginore only the file 
+scr/* 
+#to ignore all file inside the foldder
+/.py 
+#all file that end with .html or other like .py
+!src/index.html
+#to make exception of one file not to be ignored
+src/index.html
+#to ignore a specific file in a particular folder
